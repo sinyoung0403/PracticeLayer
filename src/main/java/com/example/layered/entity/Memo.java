@@ -9,7 +9,6 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Memo {
   // filed 를 정의한다
-  @Setter
   private Long id;
   private String title;
   private String contents;
